@@ -1,0 +1,11 @@
+fastapi
+uvicorn 
+joblib
+pytest
+pydantic
+scikit-learn
+torch
+accelerate
+transformers
+Pillow
+python-multipart
