@@ -8,4 +8,5 @@ torch
 accelerate
 transformers
 Pillow
+pydantic-settings
 python-multipart
