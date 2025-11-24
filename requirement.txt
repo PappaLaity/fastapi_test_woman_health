@@ -4,9 +4,6 @@ joblib
 pytest
 pydantic
 scikit-learn
-torch
-accelerate
-transformers
 Pillow
 pydantic-settings
 python-multipart
