@@ -3,8 +3,8 @@ from fastapi import FastAPI, File, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import logging
-from config import settings
-from routers import predictions,llm_route
+from app.config import settings
+from app.routers import predictions,llm_route
 # from app.routers.llm_route import Question
 
 # Configuration du logging
@@ -96,3 +96,7 @@ async def startup_event():
 async def shutdown_event():
     """Actions à l'arrêt de l'application"""
     logger.info("Arrêt de l'application Women Health API")
+
+
+
+# Ceci est une modification de test pour git pull
