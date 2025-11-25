@@ -7,3 +7,4 @@ scikit-learn
 Pillow
 pydantic-settings
 python-multipart
+requests
